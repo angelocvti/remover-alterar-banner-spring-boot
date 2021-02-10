@@ -3,10 +3,10 @@
   xmlns="http://maven.apache.org/POM/4.0.0"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-	<groupId>com.angelocvti</groupId>
-	<modelVersion>4.0.0</modelVersion>
-	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
+  <groupId>com.angelocvti</groupId>
+  <modelVersion>4.0.0</modelVersion>
+  <name>demo</name>
+  <description>Demo project for Spring Boot</description>
 
   <parent>
     <artifactId>spring-boot-starter-parent</artifactId>
@@ -17,12 +17,12 @@
 
   <version>0.0.1-SNAPSHOT</version>
 
-	<artifactId>demo</artifactId>
+  <artifactId>demo</artifactId>
 
-	<properties>
-		<java.version>15</java.version>
+  <properties>
+    <java.version>15</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
+  </properties>
 
   <build>
     <plugins>
@@ -31,7 +31,7 @@
         <groupId>org.springframework.boot</groupId>
       </plugin>
     </plugins>
-	</build>
+  </build>
 
   <dependencies>
     <dependency>
